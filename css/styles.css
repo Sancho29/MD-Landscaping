@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+}
+body {
+	font-family: "Courier New", Courier, monospace;
+	line-height: 24px;
+	background: #FFF url(../images/BG.jpg) no-repeat;
+
+}
+#container {
+	width: 825px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	
+}
+
+	/*///////////////////////////////////////////////////////////////MENU//////////////////////////////////////////////////////////////*/
+
+
+	/*///////////////////////////////////////////////////////////////HEADER//////////////////////////////////////////////////////////////*/
+	
+#header {
+	height: 199px;
+	padding: 20px 0;
+}
+	#info {
+	padding: 0 3.5px;
+	}
+	.services {
+	font-size: 13px;
+	text-align: center;
+	
+	}
+	.contacts {
+	font-size: 19px;
+	word-spacing: 5px;
+	text-align: center;
+	padding: 10px 0;
+	}
+	.servicesPic {
+	border-top: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	width: 819px;
+	margin: 0 3.5px 15px 3.5px;
+	float: left;
+	}	
+	.link {
+	text-decoration: none;
+	color: #33CC00;
+	}
+
+	/*///////////////////////////////////////////////////////////////CONTENT//////////////////////////////////////////////////////////////*/
+	
+#content {
+	padding: 10px 0;
+		
+}
+	#leftSide {
+	float: left;
+	width: 540px;
+	height: 550px;
+	}
+	.text {
+	padding: 7px 0 12px 0;
+	}
+	.textmain {
+	padding: 7px 0;
+		
+		
+	}
+	.text h1 {
+	font-size: 20px;
+	font-weight: bold;
+	}
+	.text h2 {
+	font-size: 20px;
+	line-height:36px;
+	display: inline;
+	}
+	.text h3 {
+	font-size: 25px;
+	display: inline;
+	font-weight: bold;
+	}
+	.text a {
+	text-decoration: none;
+	color: #33CC00;
+	font-size: 14px;
+	}
+	.text ul {
+	list-style: none;
+	font-size: 13px;
+	
+	}
+	.text ul li {
+		float: left; 
+		padding: 0; 
+		width: 128px;
+	}
+	
+	.bottom {
+	float: left;
+	width: 820px;
+	}
+	#projects {
+	/*width: 540px;*/
+	
+	padding: 15px 0;
+	}	
+	.text h1 {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+	}
+	#projects ul {
+		list-style: none;
+		height: 135px;
+		/*border-top: 2.5px solid #000000;
+		border-bottom: 2.5px solid #000000;*/	
+	}
+	#projects ul li {
+		float: left; 
+		padding: 0; 
+		
+	}
+	#projects ul li a:hover {
+	opacity: 0.8;
+	}
+	
+	#rightSide {
+	float: right;
+	width: 260px;
+	font-size: 14px;
+	}
+	
+	.title {
+	padding-left: 2px;
+	/*background-color: #66CC66;*/
+	border-bottom: 3px solid #66CC66;
+	color: #4d4d4d;
+	font-size: 18px;
+	}
+	
+	#link {
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+	
+	
+		/*///////////////////////////////////////////////////////////////EXAMPLES OF WORK//////////////////////////////////////////////////////////////*/
+
+
+
+	
+	/*///////////////////////////////////////////////////////////////FOOTER//////////////////////////////////////////////////////////////*/
+	
+#footer {
+	margin: 0;
+	float: left;
+	width: 845px;
+	padding: 15px 0 25px 0;
+}
+	.right {
+		float: right;
+		padding-right: 21px;
+	}
+	.endtext {
+		float: left;
+		font-size: 11px;
+		text-align: center;
+		}
